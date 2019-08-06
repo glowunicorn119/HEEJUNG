@@ -1,0 +1,276 @@
+
+ /*header*/
+#winestory{width:1920px; height:1000px; background-image: url( "../images/main.png" );  display: inline-block; }
+#winestory .header {
+ 	font-family: Didot; 
+ 	font-weight: bold; 
+ 	font-size: 20px; 
+ 	display: inline-block;
+ 	color:white;
+ 	margin:35px 655px 0 360px;
+ }
+#winestory .navbar { 
+ 	list-style: none; 
+ 	display: inline-block;
+    height: 45px;
+    font-size:15px;
+    font-family: noto sans cjk kr;
+    font-weight: 300;
+    color: white; 
+    margin-left:30px;
+}
+
+#winestory .navbar a{
+	text-decoration: none;
+	color:white;
+}
+#winestory .navbar :hover{color: #b13333;}
+}
+
+/*main*/
+.main{padding:20px; position: absolute; float: left; }
+.main h1{
+	display: inline-block;
+	font-family:Noto Sans CJK KR;
+	color:#fff;
+	font-size: 60px;
+	line-height: 75px;
+	letter-spacing: 1px;
+	vertical-align: middle;
+	position: absolute; top:430px; left: 244px;
+	font-weight: 400; 
+}
+
+.main .box{width:80px; height: 5px; background-color:#b13333;
+position: absolute; top:600px; left: 244px; }
+
+.main p{display: inline-block;
+	font-family:Noto Sans CJK KR ;
+	color:#fff;
+	font-size: 20px;
+	letter-spacing: 1px;
+	position: absolute; top:635px; left: 244px;
+	font-weight: 300; }
+
+.main .btn_type01{
+		display: inline-block;
+		border: 1px solid #fff;
+		width: 182px;
+		height: 58px;
+		text-align: center;
+		line-height:55px;
+		font-size: 21px;
+		color:#fff;
+		border-radius: 5px 5px 5px 5px;
+		position: absolute; top:686px; left: 244px;
+		font-weight: 300;
+		font-family: Noto Sans CJK KR;
+	}
+.main .btn_type01.c02{margin-left: 210px;
+		letter-spacing:none;
+	}
+
+.main .btnbox :hover{background-color: #b13333; border: none; }
+
+
+/*와인 추천 img*/
+.collection .obucity {opacity: 0.7;}
+.collection .obucity :hover{opacity: 0;}
+.collection .tenta img{ position: absolute; display:inline-block; top:315px; left:969px; }
+.collection .godori img{ position: absolute; display:inline-block; top:315px; left:1269px;}
+.collection .Chateau img{ position: absolute; display:inline-block; top:315px; left:1569px; }
+
+/*intro winestory*/
+.mainexplan{
+	width:1920px; 
+	height: 300px; 
+	background: #fff; 
+	display: block;}
+
+.mainexplan .line{
+	display: block;
+	width:246px; 
+	height: 5px; 
+	background-color:black;
+	margin: 105px 0 0 370px;
+	 }
+
+.mainexplan h1{
+	display: inline-block; 
+	font-family: Didot; 
+	font-size:40px; 
+	font-weight: bold; 
+	color:black;
+	margin:30px 0 0 370px;}
+
+.mainexplan p{
+	display:inline-block;
+	font-family: Noto Sans CJK KR; 
+	font-size:18px; font-weight:300; color:black;
+	vertical-align: top;
+	margin:32px 0 0 148px;
+	line-height: 30px;}
+
+/*베스트와인1*/
+.wine_best{width:1920px; height:986px; background-image: url(../images/bestwine.png); text-align: center;
+}
+.wine_best h1{
+	display: inline-block; 
+	font-family: Didot; 
+	font-size:40px; 
+	font-weight: bold; 
+	color:black;
+	text-align: center;
+	margin:100px 0 0 0;}
+
+.wine_best .linebox{
+	display: block;
+	width:18px; 
+	height: 1px; 
+	background-color:black;
+	margin:30px 0 0px 944px;
+	 }
+.wine_best p{font-family: Noto Sans CJK KR; font-size:18px; color:#000000; font-weight: 300; margin:30px 0 0 0; text-align: center;}
+.wine_best img{position: absolute;top:1700px; left:364px;}
+.wine_best .wine_btn2{font-family: Noto Sans CJK KR;
+		display: inline-block;
+		border: 2px solid #a00029;
+		width: 108px;
+		height: 36px;
+		text-align: center;
+		line-height:12px;
+		font-size: 18px;
+		color:#a00029;
+		border-radius: 5px 5px 5px 5px;
+		font-weight: 500;
+		position: absolute;top:2200px; left:1195px;
+	}
+.wine_best .wine_btn2:hover{background-color: #a00029; border: none; color:#fff;}
+
+/*베스트와인2,3,4*/
+.best_img{text-align: center;}
+.best_img img{margin-left:20px; margin: 68px 0 100px 20px;
+		}
+
+/*와인만나기*/
+.wine_meet{width:1920px; height:500px; background-image: url(../images/main_red.png); text-align: center;}
+.wine_meet p{font-weight: 300;text-align: center;
+		line-height:50px;
+		font-size: 30px;
+		color:#fff;
+		margin-bottom: 30px;}
+
+.wine_meet .wine_btn{
+		font-family: Noto Sans CJK KR;
+		display: inline-block;
+		border: 2px solid #fff;
+		width: 135px;
+		height: 40px;
+		text-align: center;
+		line-height:13px;
+		font-size: 18px;
+		color:#fff;
+		border-radius: 5px 5px 5px 5px;
+		font-weight: 300;
+		font-family: Noto Sans CJK KR;
+	}
+.wine_meet .wine_btn:hover{background-color: #b13333; border: none; }
+
+
+/*와인뉴스*/
+
+.wine_newstext h1{
+	display: inline-block; 
+	font-family: Didot; 
+	font-size:40px; 
+	font-weight: bold; 
+	color:black;
+	text-align: center;
+	margin:100px 0 0 867px;}
+
+.wine_newstext .linebox{
+	display: block;
+	width:18px; 
+	height: 1px; 
+	background-color:black;
+	margin:30px 0 68px 944px;
+	 }
+
+.prdList_wrap{
+	font-size :0;
+	text-align: center;
+	width:1200px;
+	margin:0 auto;
+}
+.prdList_wrap .item{
+	width:580px;
+	display: inline-block;
+	font-size:14px;
+	text-align: left;
+}
+.prdList_wrap .item + .item{
+	margin-left:20px;
+	margin-top : 20px;
+}
+.prdList_wrap .item .thumb{
+	height:367px; 
+	border-radius:5px 5px 0 0;
+	overflow: hidden;
+}
+.prdList_wrap .item .thumb img{
+	width:100%; height:100%;
+}
+.prdList_wrap .item .inner{
+	border: 1px solid #cccccc ;
+	border-top:0;
+	padding : 20px 0 0 20px;
+	box-sizing: border-box;
+	height:90px;
+	border-radius: 0 0 5px 5px;
+}
+.prdList_wrap .item .inner .name{
+	display:block;
+	font-size: 18px;
+	color: #000000;
+	font-weight: bold;
+	font-family: Noto Sans CJK KR;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.prdList_wrap .item .inner .desc{
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 300;
+	color:#000000;
+	margin:10px 0 28px 0;
+}
+
+.prdList_wrap .item .inner .desc_1{
+	display: inline-block;
+	padding :0 0 0 300px;
+	font-size: 15px;
+	font-weight: 300;
+	color:#000000;color:rgba(0,0,0,0.5);
+}
+.prdList_wrap .item .inner .desc_6{
+	display: inline-block;
+	padding :0 0 0 300px;
+	font-size: 15px;
+	font-weight: 300;
+	color:#000000;color:rgba(0,0,0,0.5);
+}
+
+.vv{position: absolute; top:3950px; left: 250px;}
+.vv2{position: absolute; top:3950px; right: 250px;}
+
+#footer{width: 1920px; height: 120px; background: #1e1e1e; margin: 100px 0 0 0; }
+#footer .footer_wine{
+	font-family: Didot; font-size: 15px; color:#Fff;
+	padding-top: 30px;
+	margin: 40px 0 0 370px;
+}
+#footer .footer_sub{
+	font-family: Noto Sans CJK KR; font-size:11px; font-weight: 200; color:#fff;
+	margin: 13px 0 0 370px; line-height: 21px; letter-spacing: 1px;
+}

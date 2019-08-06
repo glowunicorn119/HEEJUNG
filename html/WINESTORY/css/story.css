@@ -1,0 +1,364 @@
+
+ /*header*/
+#winestory{width:1920px; height:1000px; background-image: url( "../images/story_main.png" );  display: inline-block; }
+#winestory .header {
+ 	font-family: Didot; 
+ 	font-weight: bold; 
+ 	font-size: 20px; 
+ 	display: inline-block;
+ 	color:white;
+ 	margin:35px 655px 0 360px;
+ }
+#winestory .navbar { 
+ 	list-style: none; 
+ 	display: inline-block;
+    height: 45px;
+    font-size:15px;
+    font-family: noto sans cjk kr;
+    font-weight: 300;
+    color: white; 
+    margin-left:30px;
+}
+
+#winestory .navbar a{
+	text-decoration: none;
+	color:white;
+}
+#winestory .navbar :hover{color: #b13333;}
+}
+
+/*main*/
+.main{padding:20px; position: absolute; float: left;}
+.main h1{
+	display: inline-block;
+	font-family:Noto Sans CJK KR;
+	color:#fff;
+	font-size: 60px;
+	line-height: 75px;
+	letter-spacing: 1px;
+	vertical-align: middle;
+	position: absolute; top:580px; left: 200px;
+	font-weight: 400;
+}
+
+.main .box{width:80px; height: 5px; background-color:#b13333;
+position: absolute; top:750px; left: 200px;}
+
+.main p{display: inline-block;
+	font-family:Noto Sans CJK KR ;
+	color:#fff;
+	font-size: 20px;
+	letter-spacing: 1px;
+	position: absolute; top:778px; left: 200px;
+	font-weight: 300;}
+
+/*intro wine_explan*/
+.wine_explan{
+	width:1920px; 
+	height: 360px; 
+	background: #fff;}
+
+.wine_explan h1{
+	display: inline-block; 
+	font-family: Noto Sans CJK KR; 
+	font-size:35px; 
+	font-weight: bold; 
+	color:black;
+	text-align: center;
+	margin:90px 0 0 890px;}
+
+.wine_explan p{
+	display:inline-block;
+	font-family: Noto Sans CJK KR; 
+	font-size:18px; font-weight:300; color:black;
+	text-align: center;
+	margin:30px 0 110px 570px;
+	line-height: 30px;}
+
+/*redwine*/
+/*.redwine{position: absolute; top:1425px; left:1000px;}*/
+.redwine {position: absolute; top:1370px; left:1000px;}
+.redwine h1{
+	font-family: Noto Sans CJK KR;
+	color:#a00029;
+	font-weight: bold;
+	font-size: 30px;
+	vertical-align:top;
+	margin:98px 0 0 42px;
+}
+.redwine p{
+	font-family: Noto Sans CJK KR;
+	color:black;
+	font-weight:300;
+	font-size: 18px;
+	line-height: 30px;
+	margin:40px 0 0 42px;
+}
+
+/*whitewine*/
+.whitewine img{position: absolute; top:1833px; left:960px;}
+.whitewine h1{
+	font-family: Noto Sans CJK KR;
+	color:#bfc12e;
+	font-weight: bold;
+	font-size: 30px;
+	vertical-align:top;
+	margin:98px 0 0 370px;
+}
+.whitewine p{
+	font-family: Noto Sans CJK KR;
+	color:black;
+	font-weight:300;
+	font-size: 18px;
+	line-height: 30px;
+	margin:40px 0 126px 370px;}
+
+/*intro wine_grape*/
+.wine_grape{
+	width:1920px; 
+	height: 360px; 
+	background: #fff;vertical-align: middle}
+
+.wine_grape h1{
+	display: inline-block; 
+	font-family: Noto Sans CJK KR; 
+	font-size:35px; 
+	font-weight: bold; 
+	color:black;
+	text-align: center;
+	margin:90px 0 0 840px;}
+
+.wine_grape p{
+	display:inline-block;
+	font-family: Noto Sans CJK KR; 
+	font-size:18px; font-weight:300; color:black;
+	text-align: center;
+	margin:30px 0 0px 648px;
+	line-height: 30px;}
+
+/*grape*/
+.grape_set{vertical-align: center;}
+.grape_set img{
+	display:inline-block; 
+	vertical-align: top;
+	width: 480px; height: 480px;
+	margin : 0;}
+
+.grape_set li{
+  float: left;
+  width: 460px;
+  height: 480px;
+}
+
+/*Cabernet Sauvignon*/
+.CabernetSauvignon{display: inline-block; width: 480px; height: 480px; 
+	background-color: #f6f6fa; letter-spacing:none; margin:0;}	
+.CabernetSauvignon h1{
+	display: inline-block;
+ 	font-family: Didot;
+ 	font-size: 40px;
+ 	font-weight:bold;
+ 	color:#a00029;
+ 	margin:60px 0 0 30px;
+ }
+.CabernetSauvignon .explan{
+	font-family: Noto Sans CJK KR;
+	font-size: 20px;
+	font-weight: 300;
+	color:black;
+	margin:18px 0 0 30px;
+}
+
+.CabernetSauvignon .grapebox{
+	width:26px;
+	height: 1px;
+	background-color:black;
+	margin:18px 0 0 30px;
+}
+
+.CabernetSauvignon p{
+	font-family:Noto Sans CJK KR0;
+	font-weight:300;
+	font-size:16px;
+	color:black;
+	line-height:1.6;
+	margin:18px 0 0 30px;
+}
+.CabernetSauvignon h2{
+	color:#a00029;
+	font-family: Noto Sans CJK KR;
+	font-size: 20px;
+	font-weight: bold;
+	margin:40px 0 68px 30px;
+}
+/*merlot*/
+.merlot{display: inline-block;
+	width: 480px; height: 480px; 
+	background-color: #f6f6fa; letter-spacing: none;}	
+.merlot h1{
+	display: inline-block;
+ 	font-family: Didot;
+ 	font-size: 40px;
+ 	font-weight:bold;
+ 	color:#a00029;
+ 	margin:60px 0 0 30px;
+ }
+.merlot .explan{
+	font-family: Noto Sans CJK KR;
+	font-size: 20px;
+	font-weight: 300;
+	color:black;
+	margin:18px 0 0 30px;
+}
+
+.merlot .grapebox{
+	width:26px;
+	height: 1px;
+	background-color:black;
+	margin:18px 0 0 30px;
+}
+
+.merlot p{
+	font-family:Noto Sans CJK KR0;
+	font-weight:300;
+	font-size:16px;
+	color:black;
+	line-height:1.6;
+	margin:18px 0 0 30px;
+}
+.merlot h2{
+	color:#a00029;
+	font-family: Noto Sans CJK KR;
+	font-size: 20px;
+	font-weight: bold;
+	margin:40px 0 68px 30px;
+}
+
+/*pinotnoir*/
+.pinotnoir{display: inline-block;
+	width: 480px; height: 480px; 
+	background-color: #f6f6fa; letter-spacing: none;}	
+.pinotnoir h1{
+	display: inline-block;
+ 	font-family: Didot;
+ 	font-size: 40px;
+ 	font-weight:bold;
+ 	color:#a00029;
+ 	margin:60px 0 0 30px;
+ }
+.pinotnoir .explan{
+	font-family: Noto Sans CJK KR;
+	font-size: 20px;
+	font-weight: 300;
+	color:black;
+	margin:18px 0 0 30px;
+}
+
+.pinotnoir .grapebox{
+	width:26px;
+	height: 1px;
+	background-color:black;
+	margin:18px 0 0 30px;
+}
+
+.pinotnoir p{
+	font-family:Noto Sans CJK KR0;
+	font-weight:300;
+	font-size:16px;
+	color:black;
+	line-height:1.6;
+	margin:18px 0 0 30px;
+}
+.pinotnoir h2{
+	color:#a00029;
+	font-family: Noto Sans CJK KR;
+	font-size: 20px;
+	font-weight: bold;
+	margin:40px 0 68px 30px;
+}
+
+/*Syrah*/
+.Syrah{display: inline-block;
+	width: 480px; height: 480px; 
+	background-color: #f6f6fa; letter-spacing: none;}	
+.Syrah h1{
+	display: inline-block;
+ 	font-family: Didot;
+ 	font-size: 40px;
+ 	font-weight:bold;
+ 	color:#a00029;
+ 	margin:60px 0 0 30px;
+ }
+.Syrah .explan{
+	font-family: Noto Sans CJK KR;
+	font-size: 20px;
+	font-weight: 300;
+	color:black;
+	margin:18px 0 0 30px;
+}
+
+.Syrah .grapebox{
+	width:26px;
+	height: 1px;
+	background-color:black;
+	margin:18px 0 0 30px;
+}
+
+.Syrah p{
+	font-family:Noto Sans CJK KR0;
+	font-weight:300;
+	font-size:16px;
+	color:black;
+	line-height:1.6;
+	margin:18px 0 0 30px;
+}
+.Syrah h2{
+	color:#a00029;
+	font-family: Noto Sans CJK KR;
+	font-size: 20px;
+	font-weight: bold;
+	margin:40px 0 68px 30px;
+}
+
+/*와인보관법*/
+.wine_keep{
+	width:1920px; 
+	height: 360px; 
+	background: #fff;vertical-align: middle}
+
+.wine_keep h1{
+	display: inline-block; 
+	font-family: Noto Sans CJK KR; 
+	font-size:35px; 
+	font-weight: bold; 
+	color:black;
+	text-align: center;
+	margin:90px 0 0 879px;}
+
+.wine_keep p{
+	display:inline-block;
+	font-family: Noto Sans CJK KR; 
+	font-size:18px; font-weight:300; color:black;
+	text-align: center;
+	margin:30px 0 0px 578px;
+	line-height: 30px;}
+
+/*와인 보관법*/
+
+.wine_set {margin:0 auto; width:1920px; height:800px; display:inline-block; text-align: center;}
+.wine_set ul{margin: 350px 0 40px 0;}
+.wine_set li{margin:0 0 0 20px;display:inline-block;}
+.wine_set img{}
+.wine_set h1{margin-top:40px; font-family: Noto Sans CJK KR; font-size: 20px; color:black; font-weight:bold; display:inline-block; }
+.wine_set p{font-family: Noto Sans CJK KR; font-size: 16px; color:black; font-weight:300; line-height: 25px; }
+
+#footer{width: 1920px; height: 120px; background: #1e1e1e; }
+#footer .footer_wine{
+	font-family: Didot; font-size: 15px; color:#Fff;
+	padding-top: 30px;
+	margin: 40px 0 0 370px;
+}
+#footer .footer_sub{
+	font-family: Noto Sans CJK KR; font-size:11px; font-weight: 200; color:#fff;
+	margin: 13px 0 0 370px; line-height: 21px; letter-spacing: 1px;
+}
